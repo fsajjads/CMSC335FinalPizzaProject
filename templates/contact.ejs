@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Contact Us!</title>
+	<link rel="stylesheet" type="text/css" href="/public/orderstyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><span>Pi</span>zzahat</div>
+        <div class="menu">
+          <a href="/">Home</a>
+          <a href="/contact">Your Order</a>
+          <a href="/order">Contact US</a>
+        </div>
+      </nav>
+
+
+      
+    </header>
+   
+
+
+    <form action="/contact" method="POST">
+        <fieldset>
+        <legend>
+          <strong>Customer Information</strong>
+      </legend>
+      <label>Name: <input type="text" name="name"/></label>
+			<label>Email Address: <input type="email" name="email"  placeholder="email@email.com"></label>
+      </fieldset>
+      <fieldset>
+        <legend> Information</legend>
+        <label><textarea rows="5" cols="80" name="information"></textarea></label>
+      </fieldset>
+      
+
+      <input type="submit" value="Submit request">
+    </form>
+
+
+
+
+
+    
+  </body>
+</html>

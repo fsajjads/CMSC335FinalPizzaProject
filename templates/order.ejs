@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Welcome to Papa Nelson's Pizza</title>
+	<link rel="stylesheet" type="text/css" href="/public/orderstyle.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="logo"><span>Pi</span>zzahat</div>
+        <div class="menu">
+          <a href="/">Home</a>
+          <a href="">Your Order</a>
+          <a href="#">Contract US</a>
+        </div>
+      </nav>
+
+
+      
+    </header>
+  
+    <form action="/order" method="POST">
+      <div class="pizza">
+        <div class="pizza-container">
+          <% for (let i = 0; i < pizzas.length; i++) { %>
+            <div class="pizza-box">
+              <img src=<%= pizzas[i].img %> width="100" />
+              <h3><%= pizzas[i].name %></h3>
+              <p><%= pizzas[i].description %></p> <br>
+              $ <%= pizzas[i].price %> &nbsp; &nbsp;
+              <input type="checkbox" name="pizza" value="<%= pizzas[i].id %>">  <b> Add to order</b>
+            </div>
+          <% } %>
+        </div>
+      </div>
+      <input type="submit" value="Order Now" id="order">
+    </form>
+      </div> 
+  </body>
+</html>
