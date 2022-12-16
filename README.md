@@ -4,7 +4,7 @@ Group Members:
 
 Jason Trehan (jtrehan)
 
-Fahim Sajjad ()
+Fahim Sajjad (fsajjad)
 
 Aneesh Muttavarapu ()
 
