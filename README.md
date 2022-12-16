@@ -18,4 +18,6 @@ App Description: Pizzahat is a website that allows users to place pizza delivery
 
 API Links: https://rapidapi.com/kaushiksheel9/api/pizza-and-desserts/
 
+Hosted Link: https://handsome-slug-windbreaker.cyclic.app/
+
 YouTube Demo Video:
