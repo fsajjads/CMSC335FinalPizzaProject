@@ -1,21 +1,21 @@
 # CMSC335FinalProject
 
-Group Members: 
+Group Members:
 
 Jason Trehan (jtrehan)
 
 Fahim Sajjad (fsajjad)
 
-Aneesh Muttavarapu ()
+Aneesh Muttavarapu (amutt)
 
 Qiwei Wang (Kiwi0421)
 
-Dhvani (dpatel25)
+Dhvani Patel (dpatel25)
 
 Shivasree Margam (smarg5)
 
-App Description: 
+App Description: Pizzahat is a website that allows users to place pizza delivery orders to their home.
 
-API Links: https://rapidapi.com/kaushiksheel9/api/pizza-and-desserts/ 
+API Links: https://rapidapi.com/kaushiksheel9/api/pizza-and-desserts/
 
-YouTube Demo Video: 
+YouTube Demo Video:
